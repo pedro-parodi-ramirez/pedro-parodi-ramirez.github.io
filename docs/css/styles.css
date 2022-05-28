@@ -1,0 +1,26 @@
+/* ! IMPLEMENTADO CON BOOTSTRAP */
+
+*{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.socialMediaLogos {
+    height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#carousel-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    border-radius: 40px;
+}

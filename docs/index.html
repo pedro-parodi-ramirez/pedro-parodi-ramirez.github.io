@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Parodi Ramirez</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+    <!-- Propios -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div id="main-container" class="vh-100 text-white">
+        <section class="introduction">
+            <div class="row mt-5 pt-5">
+                <div class="col-3 d-flex justify-content-end me-5 pe-5">
+                    <h1 class="fs-1">Hola!<br>Soy Pedro</h1>
+                </div>
+                <div class="col-6 ms-5 ps-5">
+                    <h1 class="fs-1">Acerca de mí</h1>
+                    <p class="fs-5"> Soy un ingeniero electrónico que busca desenvolverse en algo nuevo. Tengo gran
+                        capacidad de trabajo en equipo y de aprender, con perfil autodidacta. Estoy en busca nuevos
+                        desafíos y quiero dedicar mi carrera profesional al sector IT como desarrollador de software.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="row d-flex justify-content-center mx-auto my-5">
+                <div class="col-2 d-flex justify-content-end">
+                    <h1 class="fs-1">Mis proyectos</h1>
+                </div>
+                <div class="col-6">
+                    <div id="carousel" class="carousel slide d-flex justify-content-center mx-auto"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div id="uno" class="carousel-item active">
+                                <img id="carousel-img" src="./img/javascript-coderhouse.png"
+                                    alt="JavaScript-CoderHouse">
+                                <a class="btn btn-secondary rounded-pill d-flex justify-content-center mx-auto w-25"
+                                    href="https://pedro-parodi-ramirez.github.io/JavaScript-coderhouse"
+                                    target="__blank">Ir al sitio</a>
+                            </div>
+                            <div id="dos" class="carousel-item">
+                                <img id="carousel-img" src="./img/poo-unlp.png" alt="POO#-UNLP">
+                                <a class="btn btn-secondary rounded-pill d-flex justify-content-center mx-auto w-25"
+                                    href="https://github.com/pedro-parodi-ramirez/TI_POO_UNLP/archive/refs/heads/main.zip"
+                                    target="__blank" download>Descargar proyecto</a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cucrriculum-vitae">
+            <div class="row d-flex justify-content-center mx-auto my-5">
+                <a class="fs-1 btn btn-outline-light col-3 rounded-pill p-2">Descarga mi CV!</a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="row text-center fs-1 my-3">
+                <h1>Contacto</h1>
+            </div>
+            <div class="row d-flex justify-content-center mx-5">
+                <div id="contactOptions" class="col-6 d-flex justify-content-center mx-auto">
+                    <!-- Email -->
+                    <a id="emailInfo" class="btn btn-outline-light mx-5" target="__blank" role="button">
+                        <img class="socialMediaLogos" src="./img/email.png">
+                    </a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light mx-5" href="https://linkedin.com/in/pedro-parodi-ramirez"
+                        target="__blank" role="button">
+                        <img class="socialMediaLogos" src="./img/linkedin_logo.png">
+                    </a>
+
+                    <!-- Celphone -->
+                    <a id="celphoneInfo" class="btn btn-outline-light mx-5" target="__blank" role="button">
+                        <img class="socialMediaLogos" src="./img/celphone.jpg">
+                    </a>
+                </div>
+                <div id="contactInfo"
+                    class="col-6 text-center bg-secondary bg-opacity-75 rounded-3 py-4 mx-auto d-none"></div>
+        </section>
+    </div>
+
+    <!-- Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Propios -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
