@@ -64,27 +64,22 @@ setInterval(() => {
     switch (typerwriterIteration) {
         case 0:
             divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-start">Ingeniero Electrónico</span>`;
-            divTypewriter.classList.replace('col-9', 'col-10');
             typerwriterIteration++;
             break;
         case 1:
             divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-start">Autodidacta</span>`;
-            divTypewriter.classList.replace('col-10', 'col-6');
             typerwriterIteration++;
             break;
         case 2:
             divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-start">Determinación</span>`;
-            divTypewriter.classList.replace('col-6', 'col-7');
             typerwriterIteration++;
             break;
         case 3:
             divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-start">Trabajo en equipo</span>`;
-            divTypewriter.classList.replace('col-7', 'col-8');
             typerwriterIteration++;
             break;
         default:
             divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-center">Software Developer</span>`;
-            divTypewriter.classList.replace('col-8', 'col-9');
             typerwriterIteration = 0;
             break;
     }
