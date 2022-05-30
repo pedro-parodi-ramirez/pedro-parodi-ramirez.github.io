@@ -79,7 +79,7 @@ setInterval(() => {
             typerwriterIteration++;
             break;
         default:
-            divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-center">Software Developer</span>`;
+            divTypewriter.innerHTML = `<span id="typewriterText" class="fs-3 text-start">Software Developer</span>`;
             typerwriterIteration = 0;
             break;
     }
